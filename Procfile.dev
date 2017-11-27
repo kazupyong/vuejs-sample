@@ -1,0 +1,2 @@
+web: bundle exec ruby app.rb
+dev: npm run webpack-dev-server
