@@ -2,3 +2,13 @@ h1 Hello
 
 #app
   = "message: {{message}}"
+#demo
+  = "{{fullName}}"
+#app3
+  span v-if="seen"
+    |apple
+
+#app4
+  ol
+    li v-for="todo in todos"
+      = "{{ todo.text }}"
